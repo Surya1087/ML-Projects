@@ -1,10 +1,13 @@
-Practical 1: Study of Deep Learning Packages
+# Practical 1: Study of Deep Learning Packages
+
 - TensorFlow
 - Keras
 - Theano
 - PyTorch
 - Distinct features and functionality of each package
-Practical 2: Feedforward Neural Network using Keras and TensorFlow
+
+# Practical 2: Feedforward Neural Network using Keras and TensorFlow
+
 - Import necessary packages
 - Load training and testing data
 - MNIST / CIFAR10 dataset
@@ -13,13 +16,17 @@ Practical 2: Feedforward Neural Network using Keras and TensorFlow
 - Evaluate the network
 - Plot training loss
 - Plot training accuracy
-Practical 3: Image Classification Model
+
+# Practical 3: Image Classification Model
+
 - Loading image data
 - Preprocessing image data
 - Defining model architecture
 - Training the model
 - Estimating model performance
-Practical 4: Autoencoder for Anomaly Detection
+
+# Practical 4: Autoencoder for Anomaly Detection
+
 - Import required libraries
 - Upload / access dataset
 - Encoder
@@ -30,12 +37,16 @@ Practical 4: Autoencoder for Anomaly Detection
 - Loss function
 - Evaluation metrics
 - Anomaly detection
-Practical 5: Continuous Bag of Words (CBOW) Model
+
+# Practical 5: Continuous Bag of Words (CBOW) Model
+
 - Data preparation
 - Generate training data
 - Train the CBOW model
 - Generate output
-Practical 6: Object Detection using Transfer Learning of CNN Architectures
+
+# Practical 6: Object Detection using Transfer Learning of CNN Architectures
+
 - Load a pre-trained CNN model
 - Pre-trained model trained on a large dataset
 - Freeze lower convolutional layer weights
@@ -45,7 +56,9 @@ Practical 6: Object Detection using Transfer Learning of CNN Architectures
 - Unfreeze additional layers
 - Fine-tune the model
 
-Windows
+# Windows
+
+```bash
 python -m venv dl_env
 dl_env\Scripts\activate
 python -m pip install --upgrade pip
@@ -53,9 +66,11 @@ pip install jupyter ipykernel
 pip install tensorflow
 python -m ipykernel install --user --name=dl_env --display-name "Python (Deep Learning)"
 jupyter notebook
+```
 
+# Ubuntu
 
-Ubuntu
+```bash
 sudo apt update
 sudo apt install python3 python3-pip python3-venv -y
 python3 -m venv dl_env
@@ -65,3 +80,4 @@ pip install jupyter ipykernel
 pip install tensorflow
 python -m ipykernel install --user --name=dl_env --display-name "Python (Deep Learning)"
 jupyter notebook
+```
